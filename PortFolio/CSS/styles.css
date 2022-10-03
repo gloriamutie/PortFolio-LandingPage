@@ -1,0 +1,57 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+  body {
+      font-family: Roboto,sans-serif !important;
+      background-color: black;
+      color: white;
+  }
+
+  img {  
+    max-width: 30%;  
+    height: auto;  
+    float: left;
+    border-radius: 4px;
+    background-origin: padding-box;
+   } 
+   .abt{
+    border: 2px transparent;
+    padding: 6px;
+    margin: 20px;  
+} 
+   .abt p a {
+    font-weight: bold;
+  }
+  a {
+    font-weight: normal;
+  }
+}
+@media screen and (min-width: 768px) {
+body {
+  background-color: rgb(234, 204, 169);
+  font-family: Roboto,sans-serif !important;
+}
+ ol{
+  
+  padding-right: 10%;
+}
+
+img {  
+  max-width:40%;  
+  height: auto;  
+  float: left;
+  border-radius: 4px;
+ } 
+ .abt{
+  border: 2px solid transparent;
+  padding-left: 586px;
+  margin: 20px;  
+} 
+.abt p a {
+  font-weight: bold;
+}
+a {
+  font-weight: normal;
+}
+}
+
+    
